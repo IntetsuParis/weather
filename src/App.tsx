@@ -7,12 +7,11 @@ import PopUp from './shared/PopUp/PopUp';
 function App() {
   return (
     <div className="global-container">
-      {/* <PopUp /> */}
       <div className="container">
         <Header />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/MonthStatistics" element={<MonthStatistics />}></Route>
+          <Route path="/" element={<MonthStatistics />}></Route>
         </Routes>
       </div>
     </div>
