@@ -11,7 +11,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/" element={<MonthStatistics />}></Route>
+          <Route path="/month-statistics" element={<MonthStatistics />}></Route>
         </Routes>
       </div>
     </div>
